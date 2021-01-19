@@ -13,11 +13,14 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: UseDotNet@2 
+- task: DotNetCoreCLI@2 
   displayName: ".NET Core 3.1.x" 
   inputs:
     version: '3.1.x'
     packageType: sdk
+- task: DotNetCoreCLI@2 
+  displayName: "dotnet build"
+  inputs:
     command: 'build' 
     projects: 'src/Commander.csproj'
 - script: dotnet build --configuration $(buildConfiguration)
