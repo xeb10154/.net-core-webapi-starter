@@ -18,5 +18,7 @@ steps:
   inputs:
     version: '3.1.x'
     packageType: sdk
+    command: 'build' 
+    projects: 'src/Commander.csproj'
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
