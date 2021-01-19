@@ -19,9 +19,9 @@ steps:
     version: '3.1.x'
     packageType: sdk
 - task: DotNetCoreCLI@2 
-  displayName: "dotnet build"
+  displayName: "build"
   inputs:
     command: 'build' 
-    projects: 'src/Commander.csproj'
+    projects: '**/*.csproj'
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
