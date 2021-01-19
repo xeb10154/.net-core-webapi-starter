@@ -84,3 +84,5 @@
 /Users/raymond/Documents/personal_projects/NET/Commander/src/obj/Debug/netcoreapp3.1/Commander.genruntimeconfig.cache
 /Users/raymond/Documents/personal_projects/NET/Commander/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/raymond/Documents/personal_projects/NET/Commander/src/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:\Users\raymondyau\Source\Repos\xeb10154\.net-core-webapi-starter\src\obj\Debug\netcoreapp3.1\Commander.dll
+C:\Users\raymondyau\Source\Repos\xeb10154\.net-core-webapi-starter\src\obj\Debug\netcoreapp3.1\Commander.pdb
